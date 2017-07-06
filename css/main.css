@@ -1,0 +1,21 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	background: #ccc;
+	height: 50px;
+	font-size: 13px;
+}
+
+nav ul{
+	list-style: none;
+	padding:0;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
