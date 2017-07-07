@@ -3,8 +3,17 @@ html,body{
 	padding: 0;
 }
 
+#wrapper{
+	min-width: 810px;
+	min-height: 600px;
+	height: 100%;
+}
+
+header{
+	text-align: center;
+}
+
 nav{
-	background: #ccc;
 	height: 50px;
 	font-size: 13px;
 }
@@ -13,9 +22,70 @@ nav ul{
 	list-style: none;
 	padding:0;
 	float: right;
+	margin:19px 0 5px;
 }
 
 nav ul li{
 	display: inline-block;
 	padding-right: 10px;
+}
+
+nav ul li a{
+	text-decoration:underline;
+	font-weight: 600;
+}
+
+ul a:link{
+	color: #333;
+}
+
+ul a:visited{
+	color: #333;
+}
+
+ul a:hover{
+	color: #1D5CE1;
+}
+
+ul a:avtive{
+	color: #333;
+}
+
+.lb,.pf{
+	font-weight:400;
+}
+
+.bri,.bri:link,.bri:visited,.bri:hover,.bri:active{
+	color: #fff;
+	font-weight: 400;
+	background: #38F;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.s_form{
+
+}
+
+#lg img{
+	width: 270px;
+	height: 129px;
+}
+
+#kw{
+	width: 500px;
+	height: 30px;
+	font-size: 16px;
+}
+
+#su{
+	width: 100px;
+	height: 36px;
+	color: #fff;
+	font-size: 15px;
+	background: #3385ff;
+	letter-spacing: 1px;
+	cursor: pointer;
+	border:0;
+	padding: 0;
 }
