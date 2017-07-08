@@ -76,6 +76,7 @@ ul a:avtive{
 	width: 500px;
 	height: 30px;
 	font-size: 16px;
+	margin-right: 0;
 }
 
 #su{
@@ -88,4 +89,5 @@ ul a:avtive{
 	cursor: pointer;
 	border:0;
 	padding: 0;
+	margin-left: 0;
 }
